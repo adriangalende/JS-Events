@@ -15,8 +15,6 @@ window.onload = function () {
         //Cambiamos el valor de text
         target.text = flag == "Ocultar" ? "Mostrar Elementos" : "Ocultar Elementos";
 
-        console.log(target)
-
         //Obtenemos la parte que nos interesa de la id del anchor para tratar el parrafo correspondiente
         let id = "contenidos_"+target.id.split("_")[1]
         document.getElementById(id).style = "display:"+action
